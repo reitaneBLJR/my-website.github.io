@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    background-color:blueviolet;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    min-height: 100vh;
+
+}
+
+header{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color:turquoise;
+    align-items: center;
+    box-shadow: 0px 25px 20px blue;
+    position: fixed;
+    width: 100%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+header nav ul li {
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 5px;
+}
+
+header nav ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+header nav ul li :hover{
+    background-color: turquoise
+}
+
+.container-content{
+    width: 90%;
+    margin: auto;
+}
+
+#home{
+    padding-top: 100px;
+}
+
+#home .galeri{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#home .galeri img{
+    width: 200px;
+    border-radius: 20px 50px ;
+}
+
+.texs-center  {
+    text-align: center;
+}
+
+#tentang-saya {
+    height: 700px;
+    padding-top: 100px;
+}
+
+.Crad {
+    display: flex;
+    gap: 5px;
+    width: 400px;
+    margin: auto;
+}
+
+.Crad-img img {
+    width: 200px;
+}
+
+#kontak-saya{
+    height: 600px;
+    padding-top: 100px;
+}
